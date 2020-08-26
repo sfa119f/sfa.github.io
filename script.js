@@ -4,7 +4,7 @@ var detail = ["Syarifuddin Fakhri Al Husaini", "Informatics", "Institut Teknolog
 function createTable(){
     var body = document.getElementsByTagName("body")[0];
     var img = document.createElement("img");
-    img.src = "syarifuddin.jpg";
+    img.src = "https://drive.google.com/uc?export=view&id=18OC8TPhUfb1Mtbye4te0pST4pnMgsRpl";
     img.alt = "It is my picture";
     img.className = "imgCenter";
     body.appendChild(img);

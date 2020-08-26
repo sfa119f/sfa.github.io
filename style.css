@@ -1,6 +1,9 @@
 body { 
-    background: url("bg.jpg"); 
-    background-size: 100% 100%;
+    background: url("bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 table {
     text-align: left; 
