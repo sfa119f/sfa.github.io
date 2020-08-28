@@ -3,7 +3,11 @@ Satu halaman web dengan menggunakan HTML, CSS, dan Javascript sederhana yang men
 
 ## Requirement
 - Terinstall web browser (disarankan chrome atau firefox dan versi terbaru)
+- Pastikan ada jaringan internet (hal ini dikarenakan ada beberapa kakas yang diambil melalui jaringan internet)
 
 ## Running
-- Buka file `me.html` di web browser Anda
-- Untuk menampilkan profil, klik tombol "GO!"
+* Cara 1: 
+  - Buka file `index.html` menggunakan web browser Anda
+  - Untuk menampilkan profil, klik tombol "GO!"
+* Cara 2: 
+  - Buka https://sfa119f.github.io/tugas1wbd/index.html
