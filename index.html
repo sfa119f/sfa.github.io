@@ -6,21 +6,114 @@
         <meta name="description" content="Profil dari Syarifuddin IF18">
         <meta name="author" content="Syarifuddin IF18">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Balsamiq Sans">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="index.js"></script>
     </head>
     <body>
-        <div class="header">
-            <h1 id="pageHeader">Hello Everyone!</h1>
-        </div>
-        <div class="centerText">
-            <h4 id="p1"><b>Click "GO!" to find out Me!</b></h4>
-        </div>
-        <div class="centerObject">
-            <button id="go" style="border-width: 2px;" type="button" onclick="createTable()"><b>GO!</b></button>
-        </div>
-        <br>
-        
-        <script src="script.js"></script>
+        <!--MainPage-->
+        <!--Avatar-->
+        <section id="avatar">
+            <div id="pageHeader" class="container center">
+                <h1>Hello Everyone!</h1>
+            </div>
+            <div class="flex container margin-t3-b3">
+                <div class="flex-2 center">
+                    <h2>Uddin is right here</h2>
+                    <button id="showBtn" type="button" class="button" onclick="showInfo()"><b>Find out me, Now!</b></button>
+                </div>
+                <div class="flex-1">                    
+                    <!--<img src="https://drive.google.com/uc?export=view&id=1MrCMCm__4PGlLDf6Gh9AhSL-DUciLH49" alt="It is my photo" style="width: 200px; height: 200px;">-->
+                    <img src="syarifuddin.png" alt="It is my photo" style="width: 200px; height: 200px;">
+                </div>
+            </div>
+        </section>    
 
+        <span id="mainPage"></span>
+
+        <!--Profile-->
+        <span id="infoProf">
+        <section id="profile" class="center">
+            <div class="flex">
+                <div class="flex-1"><a name="profile"></a>
+                    <h4>Uddin's profile</h4>
+                </div>
+            </div>
+            <div id="profile1" class="flex">
+                <div class="flex-1">
+                    <div><i class="fas fa-user iconSize"></i></div>
+                    <h3>Syarifuddin Fakhri Al Husaini</h3>
+                </div>
+                <div class="flex-1">
+                    <div><i class="fas fa-birthday-cake iconSize"></i></div>
+                    <h3>August 15th</h3>
+                </div>
+                <div class="flex-1">
+                    <div><i class="fas fa-mars iconSize"></i></div>
+                    <h3>Male</h3>
+                </div>
+                <div class="flex-1">
+                    <div><i class="fas fa-star-and-crescent iconSize"></i></div>
+                    <h3>Islam</h3>
+                </div>
+            </div>
+            <div id="profile2" class="flex">
+                <div class="flex-1">
+                    <a href="https://www.itb.ac.id/" class="dont-herf">
+                        <div><i class="fas fa-university iconSize"></i></div>
+                        <h3>Institut Teknologi Bandung</h3>
+                    </a>
+                </div>
+                <div class="flex-1">
+                    <a href="https://stei.itb.ac.id/id/pendidikan/sarjana-informatika/" class="dont-herf">
+                        <div><i class="fas fa-user-graduate iconSize"></i></div>
+                        <h3>Informatics</h3>
+                    </a>
+                </div>
+                <div class="flex-1">
+                    <a href="https://www.google.com/maps/place/Surakarta,+Kota+Surakarta,+Jawa+Tengah/data=!4m2!3m1!1s0x2e7a16627ad11ab1:0xe7fe4e0454bc3095?sa=X&ved=2ahUKEwjSzLiE6bzrAhVKT30KHfFfCmMQ8gEwAHoECAsQAQ" class="dont-herf">
+                        <div><i class="fas fa-map-marker-alt iconSize"></i></div>
+                        <h3>Surakarta, Indonesia</h3>
+                    </a>
+                </div>
+                <div class="flex-1">
+                    <a href="mailto:13518095@std.stei.itb.ac.id" class="dont-herf">
+                        <div><i class="fas fa-at iconSize"></i></div>
+                        <h3>13518095 @std.stei.itb.ac.id</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+        </span>
+
+        <!--Sosmed-->
+        <section id="social-media" class="center">
+            <h2 id="follow" class="container">Follow my social media</h2>
+            <div class="container center">
+                <div class="flex sosmed">
+                    <a href="https://www.linkedin.com/in/syarifuddin-fakhri-al-husaini-4860741a6/" class="dont-herf">
+                        <i class="fab fa-linkedin-in iconSize-2"></i>
+                    </a>
+                    <a href="https://www.instagram.com/sfa_arf/" class="dont-herf">
+                        <i class="fab fa-instagram iconSize-2"></i>
+                    </a>
+                    <a href="https://twitter.com/u_dinnn" class="dont-herf">
+                        <i class="fab fa-twitter iconSize-2"></i>
+                    </a>
+                    <a href="https://github.com/sfa119f" class="dont-herf">
+                        <i class="fab fa-github iconSize-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="flex container">
+                <div class="flex-1 center">
+                    <h5>Copyright SFA © 2020 All Right Reserve</h5>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

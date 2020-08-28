@@ -1,0 +1,54 @@
+#pageHeader{
+    flex: 1 100%;
+}
+#profile {
+    background: yellowgreen;
+    padding: 1em;
+}
+#profile1, #profile2{
+    align-items: flex-start;
+    width: 95%;
+}
+#follow{
+    flex: 1 100%; 
+    margin-top: 1em;
+}
+.sosmed{
+    font-size: 3em;
+}
+.sosmed a{
+    padding: .5em !important;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-1 {
+    flex : 2;
+    min-width: 100px;
+    max-width: 100% !important;
+}
+.flex-2 {
+    flex : 3;
+    min-width: 150px;
+    max-width: 100% !important;
+}
+.container {
+    width: 80vw;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.coloumn {
+    flex-direction: column;
+}
+.margin-t3-b3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.center {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
